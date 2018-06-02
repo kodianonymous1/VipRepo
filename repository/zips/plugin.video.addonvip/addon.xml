@@ -6,7 +6,6 @@
 		<import addon="plugin.video.monstermunch" version="1.0"/>
 		<import addon="plugin.video.StarTec" version="1.0"/>
 		<import addon="plugin.video.kodisraelstandup" version="1.0"/>
-		<import addon="plugin.video.nostalgia" version="1.0"/>
 		<import addon="plugin.video.Vodil" version="1.0"/>
 		<import addon="plugin.video.Ebs4_Kids_Tv" version="1.0"/>
 		<import addon="plugin.video.KIDSIL" version="1.0"/>
@@ -15,10 +14,8 @@
 		<import addon="plugin.video.wwe-on-demand" version="1.0"/>
 		<import addon="plugin.video.israelsports" version="1.0"/>
 		<import addon="plugin.video.SportsDevil" version="1.0"/>
-		<import addon="script.module.aragon" version="1.0"/>
 		<import addon="plugin.video.PomelaTV" version="1.0"/>
 		<import addon="plugin.video.alive.hd" version="1.0"/>
-
 		<import addon="plugin.video.wildhitz" version="1.0"/>
 		<import addon="plugin.video.gozlan.me" version="1.0"/>
     </requires>
