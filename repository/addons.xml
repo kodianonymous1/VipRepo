@@ -20,7 +20,6 @@
 		<import addon="script.module.aragon" version="1.0"/>
 		<import addon="plugin.video.PomelaTV" version="1.0"/>
 		<import addon="plugin.video.alive.hd" version="1.0"/>
-		<import addon="plugin.audio.eco99music" version="1.0"/>
 		<import addon="plugin.video.wildhitz" version="1.0"/>
 		<import addon="plugin.video.gozlan.me" version="1.0"/>
     </requires>
@@ -79,3 +78,4 @@
 
 
 </addons>
+
