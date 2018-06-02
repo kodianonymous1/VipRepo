@@ -3,27 +3,27 @@
 <addon id="plugin.video.addonvip" name="AddonVIP" version="1.0" provider-name="AddonVIP">
     <requires>
         <import addon="xbmc.python" version="2.20.0"/>
-  <import addon="plugin.video.UniverseHD" version="1.0"/>
-  <import addon="plugin.video.monstermunch" version="1.0"/>
-  <import addon="plugin.video.StarTec" version="1.0"/>
-  <import addon="plugin.video.kodisraelstandup" version="1.0"/>
-  <import addon="plugin.video.nostalgia" version="1.0"/>
-  <import addon="plugin.video.Vodil" version="1.0"/>
-  <import addon="plugin.video.Ebs4_Kids_Tv" version="1.0"/>
-  <import addon="plugin.video.KIDSIL" version="1.0"/>
-  <import addon="plugin.video.wwe-on-demand" version="1.0"/>
-  <import addon="plugin.video.ufc-finest" version="1.0"/>
-  <import addon="plugin.video.wwe-on-demand" version="1.0"/>
-  <import addon="plugin.video.israelsports" version="1.0"/>
-  <import addon="plugin.video.SportsDevil" version="1.0"/>
-  <import addon="script.module.aragon" version="1.0"/>
-  <import addon="plugin.video.PomelaTV" version="1.0"/>
-  <import addon="plugin.video.alive.hd" version="1.0"/>
-  <import addon="plugin.audio.eco99music" version="1.0"/>
-  <import addon="plugin.video.wildhitz" version="1.0"/>
-  <import addon="plugin.video.gozlan.me" version="1.0"/>
+		<import addon="plugin.video.UniverseHD" version="1.0"/>
+		<import addon="plugin.video.monstermunch" version="1.0"/>
+		<import addon="plugin.video.StarTec" version="1.0"/>
+		<import addon="plugin.video.kodisraelstandup" version="1.0"/>
+		<import addon="plugin.video.nostalgia" version="1.0"/>
+		<import addon="plugin.video.Vodil" version="1.0"/>
+		<import addon="plugin.video.Ebs4_Kids_Tv" version="1.0"/>
+		<import addon="plugin.video.KIDSIL" version="1.0"/>
+		<import addon="plugin.video.wwe-on-demand" version="1.0"/>
+		<import addon="plugin.video.ufc-finest" version="1.0"/>
+		<import addon="plugin.video.wwe-on-demand" version="1.0"/>
+		<import addon="plugin.video.israelsports" version="1.0"/>
+		<import addon="plugin.video.SportsDevil" version="1.0"/>
+		<import addon="script.module.aragon" version="1.0"/>
+		<import addon="plugin.video.PomelaTV" version="1.0"/>
+		<import addon="plugin.video.alive.hd" version="1.0"/>
+		<import addon="plugin.audio.eco99music" version="1.0"/>
+		<import addon="plugin.video.wildhitz" version="1.0"/>
+		<import addon="plugin.video.gozlan.me" version="1.0"/>
     </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
+	 <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>executable</provides>
   </extension>
     <extension point="xbmc.addon.metadata">
@@ -55,6 +55,25 @@
     <platform>all</platform>
   </extension>
 </addon>
+<addon id="plugin.program.Anonymous"                                                                                                                                    
+	   name=" [COLOR tan][B]Kodi Anonymous[/B][/COLOR]"                                                 
+	   version="6.2"                                                                                                                                        
+	   provider-name="">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Kodi Anonymous</summary>
+    <description lang="en">Credit To Kodi Anonymous</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 
 
 </addon>
