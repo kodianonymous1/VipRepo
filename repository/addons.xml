@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon>
+<addon id="plugin.video.addonvip" name="AddonVIP" version="1.0" provider-name="AddonVIP">
+    <requires>
+        <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="plugin.video.UniverseHD" version="1.0"/>
+  <import addon="plugin.video.monstermunch" version="1.0"/>
+  <import addon="plugin.video.StarTec" version="1.0"/>
+  <import addon="plugin.video.kodisraelstandup" version="1.0"/>
+  <import addon="plugin.video.nostalgia" version="1.0"/>
+  <import addon="plugin.video.Vodil" version="1.0"/>
+  <import addon="plugin.video.Ebs4_Kids_Tv" version="1.0"/>
+  <import addon="plugin.video.KIDSIL" version="1.0"/>
+  <import addon="plugin.video.wwe-on-demand" version="1.0"/>
+  <import addon="plugin.video.ufc-finest" version="1.0"/>
+  <import addon="plugin.video.wwe-on-demand" version="1.0"/>
+  <import addon="plugin.video.israelsports" version="1.0"/>
+  <import addon="plugin.video.SportsDevil" version="1.0"/>
+  <import addon="script.module.aragon" version="1.0"/>
+  <import addon="plugin.video.PomelaTV" version="1.0"/>
+  <import addon="plugin.video.alive.hd" version="1.0"/>
+  <import addon="plugin.audio.eco99music" version="1.0"/>
+  <import addon="plugin.video.wildhitz" version="1.0"/>
+  <import addon="plugin.video.gozlan.me" version="1.0"/>
+    </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">AddonVIP</summary>
+        <description lang="en">Receive Important Durex Build Notifications. Unsubscribe within Add-on Settings.</description>
+        <language></language>
+        <platform>all</platform>
+        <website>https://www.drxbld.com/</website>
+        <source></source>
+        <forum></forum>
+    </extension>
+</addon>
+
+<addon id="plugin.video.nostalgia" name="[COLOR blue]חינוכית[/COLOR]-[COLOR white]נוסטלגיה[/COLOR]" version="2.1.4" provider-name="[COLOR gold]ToMeR[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.youtube"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>he</language>
+    <summary lang="he">הרחבה לצפייה , בתוכניות נוסטלגיה</summary>
+    <description lang="he">להרחבה יש מספר קטגוריות החל מתוכניות עבר, נוסטלגיה-ילדים,נוסטלגיה-כללי,תוכניות משודרות, לומדים מהבית,מוזיקה,וקטגוריה מיוחדת של ספיישלים.
+
+בכל קטגוריה תמצאו את הנושא שאליו מיועדות התוכניות, השתדלתי והתאמצתי מאוד כדי לספק לכם חוויה נוסטלגית עוצרת נשימה , כל התוכניות בפרקים מלאים , עונות מלאות,</description>
+    <disclaimer lang="en">ToMeR For Addons Premium</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+
+</addon>
