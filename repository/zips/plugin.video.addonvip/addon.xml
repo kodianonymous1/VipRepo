@@ -5,7 +5,9 @@
 		<import addon="plugin.video.UniverseHD" version="1.0"/>
 		<import addon="plugin.video.monstermunch" version="1.0"/>
 		<import addon="plugin.video.StarTec" version="1.0"/>
+		<import addon="plugin.audio.eco99music" version="0.0.3"/>
 		<import addon="plugin.video.kodisraelstandup" version="1.0"/>
+		<import addon="script.module.mobdro" version="1.0"/>
 		<import addon="plugin.video.Vodil" version="1.0"/>
 		<import addon="plugin.video.Ebs4_Kids_Tv" version="1.0"/>
 		<import addon="plugin.video.KIDSIL" version="1.0"/>
