@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+
 <addon id="plugin.video.addonvip" name="AddonVIP" version="1.0" provider-name="AddonVIP">
     <requires>
         <import addon="xbmc.python" version="2.20.0"/>
 		<import addon="plugin.video.UniverseHD" version="1.0"/>
 		<import addon="plugin.video.monstermunch" version="1.0"/>
 		<import addon="plugin.video.StarTec" version="1.0"/>
+		<import addon="plugin.audio.eco99music" version="0.0.3"/>
 		<import addon="plugin.video.kodisraelstandup" version="1.0"/>
+		<import addon="script.module.mobdro" version="1.0"/>
 		<import addon="plugin.video.Vodil" version="1.0"/>
 		<import addon="plugin.video.Ebs4_Kids_Tv" version="1.0"/>
 		<import addon="plugin.video.KIDSIL" version="1.0"/>
@@ -33,6 +36,7 @@
         <forum></forum>
     </extension>
 </addon>
+
 <addon id="plugin.video.nostalgia" name="[COLOR blue]חינוכית[/COLOR]-[COLOR white]נוסטלגיה[/COLOR]" version="2.1.4" provider-name="[COLOR gold]ToMeR[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -51,12 +55,14 @@
     <platform>all</platform>
   </extension>
 </addon>
+
 <addon id="plugin.program.Anonymous"                                                                                                                                    
 	   name=" [COLOR tan][B]Kodi Anonymous[/B][/COLOR]"                                                 
 	   version="6.2"                                                                                                                                        
 	   provider-name="">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video executable</provides>
@@ -68,31 +74,9 @@
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="plugin.video.dope"                                                                                                                                    
-	   name="ITS DOPE"                      
-	   version="0.5"                                                                                                                                        
-	   provider-name="WD">
-	   <requires>
-    <import addon="script.module.resolveurl" version="5.0.00"/>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.requests"/>
-	<import addon="script.module.nanscrapers"/>
 
-	
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py" start="login"></extension> 
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">DOPE STUFF</summary>
-    <description lang="en">YT</description>
-    <platform>all</platform>
 
-  </extension>
-</addon>
+
 </addons>
-
 
 
